@@ -11,14 +11,8 @@ $('#selectLanguageDropdown').localizationTool({
 	'defaultLanguage' : 'en_GB',
 	'showFlag': true,
 	'showCountry': true,
-	'showLanguage': true, 
+	'showLanguage': true,
 	'strings' : {
-		'Get Your MVP Done' : {
-			'de_DE' : 'German translation here'
-		},
-		'class:introduction-text' :{
-			'de_DE' : 'German Introduction Text'
-		}
 	}
 });
 
