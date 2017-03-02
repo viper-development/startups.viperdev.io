@@ -24,7 +24,7 @@
 					<section id="banner">
 						<div class="inner">
 							<h2>Get Your MVP Done</h2>
-							<p>
+							<p class="introduction-text">
 								Your MVP.
 								Done in just 30 Days.
 								Designed with you, implemented and deployed by us.
@@ -172,6 +172,11 @@
 								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 								<li>&copy; viperdev.io <a href="/disclaimer.html"> Disclaimer</a></li>
 							</ul>
+
+							<!-- Dropdown to manually select Languages -->
+							<ul>
+							<li class="dropdown-local"><div id="selectLanguageDropdown" class="localizationTool"></div></li>
+							</ul>
 						</div>
 					</section>
 
@@ -179,7 +184,11 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/jquery.min.js"></script>
+			<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  		crossorigin="anonymous"></script>
+			<script type="text/javascript" src="assets/js/local.js"></script>
+			<link rel="stylesheet" type="text/css" href="assets/css/local.css">
 			<script type="text/javascript" src="assets/js/custom.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/util.js"></script>
